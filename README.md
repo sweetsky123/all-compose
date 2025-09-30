@@ -2,10 +2,13 @@
 
 > All-Compose 是一个用于搜集各种软件的 Docker Compose 文件的仓库
 
+在通常情况下，您找到需要的软件后，只需要修改`.env`文件中的配置项，并在目录执行`docker compose up -d`即可正常使用（**重要：您必须修改`.env`文件中的密码，否则会带来安全性问题**）
+
 ## 目前添加了如下软件
 
 - Safeline（雷池WAF）
-- Twikoo（一款优秀的评论系统）
+- Twikoo
+- Uptime-Kuma
 
 未完待续
 
