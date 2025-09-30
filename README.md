@@ -9,6 +9,7 @@
 - Safeline（雷池WAF）
 - Twikoo
 - Uptime-Kuma
+- 青龙面板
 
 未完待续
 
