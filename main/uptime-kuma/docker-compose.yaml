@@ -46,6 +46,6 @@ services:
     
     # 配置容器网络
     networks:
-      twikoo:
+      uptime-kuma:
         # 配置容器 IP
         ipv4_address: ${SUBNET_PREFIX}.2
