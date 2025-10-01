@@ -1,12 +1,19 @@
+# 网络配置
 networks:
   twikoo:
+    # 设置网络名称
     name: twikoo
+    # 设置网络驱动为桥接
     driver: bridge
+    # 配置 IP 地址管理
     ipam:
       driver: default
       config:
+          # 设置网关
         - gateway: ${SUBNET_PREFIX:?SUBNET_PREFIX required}.1
+          # 设置网段
           subnet: ${SUBNET_PREFIX}.0/24
+    # 设置网络驱动选项
     driver_opts:
       com.docker.network.bridge.name: twikoo
 
